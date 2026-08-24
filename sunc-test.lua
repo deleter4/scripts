@@ -1,7 +1,7 @@
 getgenv().sUNCDebug = {
-    ["printcheckpoints"] = false, -- boolean
-    ["delaybetweentests"] = 0, -- seconds
-    ["printtesttimetaken"] = true, -- boolean
+    ["printcheckpoints"] = false,
+    ["delaybetweentests"] = 0,
+    ["printtesttimetaken"] = true,
 }
 
 loadstring(game:HttpGet("https://script.sunc.su/"))()
